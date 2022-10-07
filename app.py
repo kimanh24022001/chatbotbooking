@@ -11,7 +11,7 @@ from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 nltk.download('punkt')
 nltk.download('wordnet')
-
+nltk.download('omw-1.4')
 # chat initialization
 model = load_model("chatbot_model.h5")
 intents = json.loads(open("intents.json").read())
