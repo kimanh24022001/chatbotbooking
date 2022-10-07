@@ -3,3 +3,4 @@ tensorflow-cpu
 nltk
 keras
 gunicorn==20.1.0
+flask_ngrok
