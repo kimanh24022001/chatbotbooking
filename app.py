@@ -10,6 +10,7 @@ from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 nltk.download('punkt')
+nltk.download('wordnet')
 
 # chat initialization
 model = load_model("chatbot_model.h5")
